@@ -1,0 +1,170 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+body {
+    background:green;
+	
+}
+
+
+container{
+   border: 2px solid black;
+    width:950px;
+    height:950px;
+    
+}
+
+div#apple {
+	width:300px;
+    height:300px;
+    background-color:red;
+    display:block;
+    position:absolute;
+    left:650px;
+    top:50px;
+    transition: all 2s;
+}
+
+div#apple:hover {
+    
+    background:blue;
+    width:500px;
+}
+
+div#banana {
+    width:300px;
+    height:300px;
+    background-color:yellow;
+    display:block;
+    position:absolute;
+    left:350px;
+    top:50px;
+    transition: all 3s;
+}
+
+div#banana:hover {
+    width:300px;
+    background-color:green;
+    transform: rotate(20px);
+    border: 3px solid red;
+    border-radius:50%;
+}
+
+div#cherry {
+    background:pink;
+    width:300px;
+    height:300px;
+    display:block;
+    position:absolute;
+    left:50px;
+    top:50px;
+    transition: all 3s;
+}
+
+div#cherry:hover {
+    height:900px;
+    background-color:hotpink;
+    
+}
+
+div#donkey {
+    width:300px;
+    height:300px;
+    background-color:orange;
+    display:block;
+    position:absolute;
+    left:950px;
+    top:50px;   
+}
+
+div#elephant{
+    width:300px;
+    height:300px;
+    background-color:dodgerblue;
+    display:block;
+    position:absolute;
+    top:350px;
+    left:50px;
+}
+
+div#elephant2 {
+    width:300px;
+    height:300px;
+    background-color:darkblue;
+    display:block;
+    position:absolute;
+    top:350px;
+    left:350px;
+}
+
+div#elephant3 {
+    width:300px;
+    height:300px;
+    background-color:mediumpurple;
+    display:block;
+    position:absolute;
+    top:350px;
+    left:650px;
+}
+
+div#elephant4 {
+    width:300px;
+    height:300px;
+    background-color:lightsteelblue;
+    display:block;
+    position:absolute;
+    top:350px;
+    left:950px;
+}
+    
+    
+div#honey {
+    width:300px;
+    height:300px;
+    background-color:red;
+    display:block;
+    position:absolute;
+    top:650px;
+    left:50px;
+}
+
+div#honey2 {
+      width:300px;
+    height:300px;
+    background-color:blue;
+    display:block;
+    position:absolute;
+    top:650px;
+    left:350px;    
+}
+
+div#honey3 {
+    width:300px;
+    height:300px;
+    background-color:fuchsia;
+    display:block;
+    position:absolute;
+    top:650px;
+    left:650px;  
+}
+
+div#honey4 {
+    width:300px;
+    height:300px;
+    background-color:darkgreen;
+    display:block;
+    position:absolute;
+    top:650px;
+    left:950px;   
+}
