@@ -1,0 +1,79 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:auto;
+	padding:15px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+h1{
+    margin:auto;
+    padding:15px;
+    text-align:center;
+    font-size:50px
+}
+
+h2{
+    margin:auto;
+    padding:2px;
+    text-align:center;
+}
+
+body {
+	background:grey;
+    font-family:Courier,monospace;
+    
+    
+    
+}
+
+#container {
+	text-align:center;
+    border:3px solid black;
+    padding:30px;
+    margin:auto;
+    width:800px;
+    background-color:darkgrey;
+}
+
+nav ul{
+    list-style:none;
+    padding-left:0px;
+    border:2px solid red;
+    background-color:dimgrey;
+}
+
+img{
+   width:100%;
+}
+
+nav li{
+    text-align:center;
+    display:inline;
+}
+
+nav ul.horizontal li {
+    display: inline;    
+}
+
+nav a{
+    text-decoration:none;
+    border:1px solid black;
+    padding:30px;
+    margin:5px;
+    display:inline-block;
+    border-radius:10px;
+    background:black;
+    color:white;
+}
+
+
+nav a:hover {
+    background:orange;
+    border-radius:0px;
+}
