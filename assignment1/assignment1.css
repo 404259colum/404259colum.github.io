@@ -1,0 +1,75 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+body { 
+	font-family:courier,monospace;
+    background-color:#2c302d;
+    color:azure;
+}
+
+
+div#container {	
+    
+    margin:auto;
+    margin-top:400px;
+    width:800px;
+	border:10px solid #6c756e;
+    padding:50px;
+    color:#525e55;
+    background-color:#949c94;
+    letter-spacing:1.5px;
+    text-shadow:2px 2px 5px #323d35;
+    border-style:double;
+}
+
+
+h1 {
+    background-color:#829487;
+    text-align:center;
+    font-family:Impact,sans-serif;
+    font-size:40px;
+    padding:20px;
+    color:#6c756e;
+    border: 6px solid #6c756e;
+    border-style:double;
+}
+
+h2{
+    background-color:#829487;
+    text-align:center;
+    font-size:28px;
+    padding:20px;
+    color:#6c756e;
+    border: 6px solid #6c756e;
+    border-style:double;
+    font-family:Impact,sans-serif;
+    
+}
+
+.center { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+
+.figure{
+    
+}
+
+footer{
+    font-size:15px;
+    
+}
