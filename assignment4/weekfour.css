@@ -1,0 +1,155 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	background:black;
+	
+}
+
+
+div#container {
+	text-align:center;
+    font-size:4em;
+    font-family: 'Rubik Bubbles', system-ui;
+    color:#ffccfb;
+    text-shadow:5px 5px #ff00bb;
+}
+
+
+
+div#apple {
+    text-align:center;
+    font-size:3em;
+    transform:rotate(-90deg);
+    color:#ffa6f8;
+    position:absolute;
+    right:500px;
+    top:200px;
+}
+
+
+span.who{
+    color:#ffa6f8;
+}
+
+span.is{
+    color:#ff75f4;
+}
+
+span.hunky{
+    color:#ff61f2;
+}
+
+span.dory{
+    color:#ff2eee;
+}
+
+
+div#lemon {
+   font-size:20em;
+    position:absolute;
+    top:0px;
+    left:1px;
+    z-index:-1;
+    color:#ff0aeb;
+}
+
+div#lime {
+    font-size:20em;
+    position:absolute;
+    top:300px;
+    right:50px;
+    z-index:-2;
+    color:#bf00b0;
+}
+
+div#question {
+       font-size:800px;
+    position:absolute;
+    bottom:-500px;
+    right:-20px;
+    z-index:-3;
+    color:#75006c;
+    opacity:30%;
+    text-shadow: 10px 10px 10px white;
+} 
+
+
+span.baby {
+    color:#ffa6f8;
+    font-size:10em;
+    position:fixed;
+    right:10px;
+    top:50px;
+}
+
+span.gay {
+    color:#ff75f4;
+    font-size:10em;
+    position:fixed;
+    right:10px;
+    top:170px;
+}
+
+span.honey {
+    color:#ff61f2;
+    font-size:10em;
+    position:fixed;
+    right:10px;
+    font-family:'Rubik Bubbles';
+    text-shadow:10px 10px 10px white;
+}
+
+
+span.watermelon {
+    color:#ff2eee;
+    font-size:10em;
+    position:fixed;
+    right:10px;
+    top:400px;
+    font-family:'Rubik Bubbles';
+    text-shadow:10px 10px 10px white;
+}
+
+div#earth{
+    color:white;
+    position:fixed;
+    top:450px;
+    left:60px;
+    font-size:8em;
+}
+
+span.world {
+    color:hotpink;
+    text-shadow:4px 4px 5px white;
+    font-family: "Fruktur";
+}
+
+span.know{
+    text-shadow: 5px 5px 10px #ff85de;
+}
+
+div#ohmygod {
+    font-size:10em;
+    z-index:-4;
+    position:relative;
+    top:125px;
+    left:100px;
+    color:white;
+    text-shadow:5px 5px 10px #ff85de;
+    font-family:"Fruktur";
+}
+
