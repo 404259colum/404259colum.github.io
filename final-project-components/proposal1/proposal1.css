@@ -1,0 +1,62 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+header{
+   background-color:#59AAFF;
+    text-align:center;
+    font-size:1.5em;
+    text-shadow:2px 2px 1.5px #005EBF;
+}
+
+h1{
+    color:#FF0000;
+}
+
+h2{
+    color:#FF7BAC;
+}
+
+h3{
+    color:#FF6400
+}
+
+body {	
+	background-color:#3698FF;
+}
+
+p{
+    text-shadow: 2px 2px 1.5px #005EBF;
+    font-size: 1.3em;
+    line-height:1.15em;
+    color:#FFFF00;
+}
+
+div#container {
+    background-color:#59AAFF;
+    padding:3%;
+    margin:30px;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    border:solid 5px #E6237A;
+}
+
+img{
+    height:300px;
+    width:300xp;
+    margin:auto;
+    display:block;
+}
+
+
+
