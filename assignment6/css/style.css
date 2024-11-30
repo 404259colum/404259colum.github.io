@@ -1,0 +1,160 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:10px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body{
+    background:url('../img/pinkdior.webp') no-repeat center fixed;
+    background-size: cover;
+    font-family: "Fleur De Leah", cursive;
+        font-size:2em;
+        line-height:1.4em;
+}
+
+header{
+    color:#ed7782;
+    line-height:2em;
+}
+
+#container {
+    margin:1em;
+    border:5px solid pink;
+    padding:0.75em;
+    background:white;
+}
+
+#apple{
+   background:#ff96a0;
+    padding:10px;
+    border:3px solid pink;
+    color:white;
+}
+
+
+#banana{
+   background:#ff808c;
+    padding:10px;
+    border:3px solid pink;
+    color:white;
+}
+
+
+footer{
+    color:pink;
+    font-family: "Fleur De Leah", cursive;
+    font-size:3em;
+    line-height:1em;
+}
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+body {
+background:url('../img/diorbackgroundblu.jpg') no-repeat center fixed;
+    background-size: cover;
+    font-family:
+    }
+  
+header{
+    color:#252c4a;
+    }
+    
+#container{
+	width:725px;
+    margin:auto;
+    background-color:white;
+    border:6px solid #252c4a;
+} 
+    
+#apple {
+   background-color:#555f87;
+    border:3px solid #252c4a;
+    }
+    
+#banana {
+    background-color:#3d476e;
+    border:3px solid #252c4a;
+    }
+    
+footer{
+    color:#252c4a;
+    }
+    
+/* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+
+body{
+  background:url('../img/diorred.jpg') no-repeat center fixed;
+    background-size: cover;
+    }
+ 
+header{
+    color:#54030a;
+    font-family: "Fleur De Leah", cursive;
+    font-size:1em;
+    line-height:1.5em;
+    }
+    
+#container {
+    width:1000px;
+    height:auto;
+    opacity: 100%;
+    background:white;
+    background-size: cover;
+    border:6px solid #54030a;
+    }
+
+#apple {
+        float: left;
+        width:43%;
+        background:#a3101d;
+        border:3px solid #54030a;
+        font-family: "Fleur De Leah", cursive;
+        font-size:2em;
+        line-height:1.2em;
+    }
+	
+#banana {
+        float:right;
+        width:50%;
+        background:#750912;
+        border:3px solid #54030a;
+        font-family: "Fleur De Leah", cursive;
+        font-size:2em;
+        line-height:1.2em;
+    }
+    
+footer {
+    clear:both;
+    color:#54030a;
+    }
+    
+/* closes 1024px+ */
+
+
+
