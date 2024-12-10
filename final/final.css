@@ -141,33 +141,44 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    div#headbar{        
-        height:30px;
-    }  
+     div#headbar {        
+        height:50px;  
+    }
     #titlebox{        
-        height:15px;
+        height:25px;
     } 
     #buttons{        
-        height:15px;
+        height:25px;
     }     
     #title {
-        font-size:12px;
-        height:15px;
-        margin-top: 1px;
-        
+        font-size:25px;
+        height:25px;
+        margin-top: 5px;
     }     
     div#container {
-        margin-top: 30px;
+        margin-top: 50px;
     }
     #logobboxlogo {
-        height: 30px;
-        width: 30px;
-    }   
+        height: 50px;
+        width: 50px;
+    } 
     .paragraph {
-        padding:3px;
+        padding:5px;
         margin-left: 10px;
         margin-right: 10px;
-    }     
+    }  
+    nav {
+        height: 25px;
+    }
+    nav a{
+        height:20px;
+        border:1px solid black;
+        padding:0px;
+        margin:2px;
+        font-size: 9px;
+        display:inline-flex;
+        border-radius:1px;
+    }    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -197,7 +208,19 @@ You can adjust the min-width numbers below, and add as many new media queries as
         padding:5px;
         margin-left: 10px;
         margin-right: 10px;
-    }     
+    }  
+    nav {
+        height: 25px;
+    }
+    nav a{
+        height:20px;
+        border:1px solid black;
+        padding:0px;
+        margin:2px;
+        font-size: 9px;
+        display:inline-flex;
+        border-radius:1px;
+    }    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -210,7 +233,8 @@ You can adjust the min-width numbers below, and add as many new media queries as
     } 
     #buttons{        
         height:50px;
-    }     
+    }
+
     #title {
         font-size:45px;
         height:50px;
@@ -227,7 +251,19 @@ You can adjust the min-width numbers below, and add as many new media queries as
         padding:5px;
         margin-left: 80px;
         margin-right: 80px;
-    }     
+    }   
+    nav {
+        height: 50px;
+    }
+    nav a{
+        height:inherit;
+        border:1px solid black;
+        padding:3px;
+        margin:5px;
+        font-size: inherit;
+        display:inline-flex;
+        border-radius:3px;
+    }      
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
