@@ -86,6 +86,49 @@ div#container {
     text-align: center;
 }
 
+nav {
+    width: 100%;
+}
+
+nav ul{
+    list-style:none;
+    padding-left:0px;
+    background-color:yellow;
+    margin-top: 0px; 
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+nav li{
+    text-align:center;
+    display:inline-flex;
+}
+
+nav ul.horizontal li {
+    display: inline-flex;    
+}
+
+nav a{
+    text-decoration:none;
+    border:1px solid black;
+    padding:5px;
+    margin:5px;
+    display:inline-flex;
+    border-radius:10px;
+    background:black;
+    color:white;
+}
+
+
+nav a:hover {
+    background:orange;
+    border-radius:0px;
+}
 
 
 
