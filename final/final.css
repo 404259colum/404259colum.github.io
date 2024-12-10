@@ -51,6 +51,7 @@ div#headbar {
     width: 100%;
     height: 50px;
 }
+
 #buttons{
     order: 2;
     width: 100%;
@@ -83,6 +84,7 @@ div#container {
     font-size:45px;
     color:white;
     margin:0px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -151,6 +153,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
     #title {
         font-size:12px;
         height:15px;
+        margin-top: 1px;
         
     }     
     div#container {
@@ -179,8 +182,9 @@ You can adjust the min-width numbers below, and add as many new media queries as
         height:25px;
     }     
     #title {
-        font-size:45px;
+        font-size:25px;
         height:25px;
+        margin-top: 5px;
     }     
     div#container {
         margin-top: 50px;
@@ -210,6 +214,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
     #title {
         font-size:45px;
         height:50px;
+        margin-top: 10px;
     }      
     div#container {
         margin-top: 100px;
@@ -239,6 +244,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
     #title {
         font-size:45px;
         height:50px;
+        margin-top: 10px;
     }      
     div#container {
         margin-top: 100px;
@@ -263,6 +269,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
     #title {
         font-size:45px;
         height:50px;
+        margin-top: 10px;
     }      
     div#container {
         margin-top: 100px;
