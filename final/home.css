@@ -80,12 +80,17 @@ div#container {
     margin-right: 80px;
     margin-top: 0px;
     width: auto;
-    height: 200px;
+    height: auto;
     text-align: center;
     font-size: 23px;
     line-height: 30px;
     color: #00C943;
     text-shadow: 1px 1px 2px #59AAFF;
+}
+
+.paragraph.huge {
+    font-size: 50px;
+    height: auto;
 }
 
 #firstlogo {
@@ -102,6 +107,13 @@ div#container {
 
 #firstlogo.center {
     width: 50%;
+}
+
+.center.smaller {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
 }
 
 #title {
@@ -318,6 +330,12 @@ You can adjust the min-width numbers below, and add as many new media queries as
         margin-right: 10px;
         font-size: 10px;
         border: 3px solid #FF7BD0;
+        height: auto;
+    }
+
+    .paragraph.huge {
+        font-size: 20px;
+        height: auto;
     }
 
     nav {
@@ -372,6 +390,11 @@ You can adjust the min-width numbers below, and add as many new media queries as
         border: 5px solid #FF7BD0;
     }
 
+    .paragraph.huge {
+        font-size: 20px;
+        height: auto;
+    }
+
     nav {
         height: 25px;
     }
@@ -423,6 +446,11 @@ You can adjust the min-width numbers below, and add as many new media queries as
         border: 5px solid #FF7BD0;
     }
 
+    .paragraph.huge {
+        font-size: 50px;
+        height: auto;
+    }
+
     nav {
         height: 50px;
     }
@@ -469,10 +497,15 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
     .paragraph {
         font-size: 23.5px;
-        height: 200px;
+        height: auto;
         padding: 15px;
         color: #FFFF00;
         border: 5px solid #FF7BD0;
+    }
+
+    .paragraph.huge {
+        font-size: 50px;
+        height: auto;
     }
 
     /* Extra large devices (large laptops and desktops, 1200px and up) */
