@@ -29,18 +29,11 @@ div#headbar {
 
 
 div#container {
-	
+	margin:auto;
 }
 
 
 #firstlogo {
-/*
-    display:block;
-    width:1400px;
-    height:700px;
-    margin:auto;
-    
-*/
     width: 100%;
     height: auto;
 }
@@ -56,18 +49,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-    #container{
-    margin:auto;
-    }    
-    
-/*
-#firstlogo {
-    display:block;
-    width:500px;
-    height:auto;
-    margin:auto;
 }
-*/
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
