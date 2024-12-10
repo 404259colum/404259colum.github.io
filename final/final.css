@@ -128,12 +128,29 @@ nav a{
 
 
 nav a:hover {
-    background:orange;
+    background:pink;
     border-radius:0px;
 }
 
+div#peepshowa {
+    position:absolute;
+    display:block;
+    width:100px;
+    height:100px;
+    top:100px;
+    left:300px;
+    transition:all 2s;
+    opacity:0%;
+}
 
+.orangeheart {
+    width:200px;
+    height:200px;
+}
 
+div#peepshowa:hover {
+    opacity:100%;
+}
 /* ========================================
 MEDIA QUERIES!
 You can adjust the min-width numbers below, and add as many new media queries as you need.
