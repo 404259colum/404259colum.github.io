@@ -1,13 +1,14 @@
 /* Basic CSS resets -- leveling slight inconsistencies in browsers */
-html, body {
-	margin:0px;
-	padding:0px;
-	height:100%;
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
 }
 
 html {
-		/* Standard text-settings below */
-	font-size: 1em;
+    /* Standard text-settings below */
+    font-size: 1em;
     line-height: 1.4em;
 }
 
@@ -15,46 +16,50 @@ html {
 
 
 body {
-	background-color:#3698FF;
-	
+    background-color: #3698FF;
+
 }
 
 div#headbar {
-    width:100%;
-    height:100px;
-    background-color:red;
-    position:fixed;
-    top:0px;
-    display:inline-flex;
-    flex-direction:row;
-    z-index:5;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    top: 0px;
+    display: inline-flex;
+    flex-direction: row;
+    z-index: 5;
 }
+
 #logobbox {
     order: 1;
     padding: 0;
-    margin: 0;    
+    margin: 0;
 }
+
 #logobboxlogo {
-        height: 100px;
-        width: 100px;
-        padding: 0;
-        margin: 0;
-        background-color:#FF7BD0;
-    }
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    background-color: #FF7BD0;
+}
+
 #headernav {
-    display:inline-flex;
+    display: inline-flex;
     padding: 0px;
     order: 2;
     flex-direction: column;
     width: 100%;
 }
-#titlebox{
+
+#titlebox {
     order: 1;
     width: 100%;
     height: 50px;
 }
 
-#buttons{
+#buttons {
     order: 2;
     width: 100%;
     background-color: yellow;
@@ -62,25 +67,25 @@ div#headbar {
 }
 
 div#container {
-	margin:auto;
+    margin: auto;
     margin-top: 100px;
     margin-bottom: 0px;
     z-index: 1;
 }
 
 .paragraph {
-    background-color:#FF6400;
-    padding:10px;
+    background-color: #FF6400;
+    padding: 10px;
     margin-left: 80px;
     margin-right: 80px;
-    margin-top:0px;
+    margin-top: 0px;
     width: auto;
-    height:200px;
-    text-align:center;
-    font-size:23px;
+    height: 200px;
+    text-align: center;
+    font-size: 23px;
     line-height: 30px;
-    color:#00C943;
-    text-shadow:1px 1px 2px #59AAFF;
+    color: #00C943;
+    text-shadow: 1px 1px 2px #59AAFF;
 }
 
 #firstlogo {
@@ -88,10 +93,21 @@ div#container {
     height: auto;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#firstlogo.center {
+    width: 50%;
+}
+
 #title {
-    font-size:45px;
-    color:white;
-    margin:0px;
+    font-size: 45px;
+    color: white;
+    margin: 0px;
     margin-top: 10px;
     text-align: center;
 }
@@ -100,164 +116,165 @@ nav {
     width: 100%;
 }
 
-nav ul{
-    list-style:none;
-    padding-left:0px;
-    background-color:yellow;
-    margin-top: 0px; 
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+    background-color: yellow;
+    margin-top: 0px;
 
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    
+
 }
 
-nav li{
-    text-align:center;
-    display:inline-flex;
+nav li {
+    text-align: center;
+    display: inline-flex;
 }
 
 nav ul.horizontal li {
-    display: inline-flex;    
+    display: inline-flex;
 }
 
-nav a{
-    text-decoration:none;
-    border:1px solid black;
-    padding:5px;
-    margin:5px;
-    display:inline-flex;
-    border-radius:10px;
-    background:orange;
-    color:white;
+nav a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    display: inline-flex;
+    border-radius: 10px;
+    background: orange;
+    color: white;
 }
 
 
 nav a:hover {
-    background:#FF7BD0;;
-    border-radius:0px;
+    background: #FF7BD0;
+    ;
+    border-radius: 0px;
 }
 
 div#peepshowa {
-    position:absolute;
-    display:block;
-    width:100px;
-    height:100px;
-    top:100px;
-    left:300px;
-    transition:all 1s;
-    opacity:0%;
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 300px;
+    transition: all 1s;
+    opacity: 0%;
 }
 
 .orangeheart {
-    width:200px;
-    height:200px;
+    width: 200px;
+    height: 200px;
 }
 
 div#peepshowa:hover {
-    opacity:100%;
+    opacity: 100%;
 }
 
 div#peepshowb {
-    position:absolute;
-    display:block;
-    width:200px;
-    height:200px;
-    top:200px;
-    left:650px;
-    transition:all 1s;
-    opacity:0%;
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    left: 650px;
+    transition: all 1s;
+    opacity: 0%;
 }
 
 .trio {
-    height:250px;
-    width:800px;
+    height: 250px;
+    width: 800px;
 }
 
 div#peepshowb:hover {
-    opacity:100%;
+    opacity: 100%;
 }
 
 div#peepshowc {
-    position:absolute;
-    display:block;
-    width:400px;
-    height:400px;
-    top:400px;
-    left:100px;
-    opacity:100%;
-    transition:all 1s;
-    opacity:0%;
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 400px;
+    top: 400px;
+    left: 100px;
+    opacity: 100%;
+    transition: all 1s;
+    opacity: 0%;
 }
 
 .muscleone {
-    height:400px;
-    width:400px;
+    height: 400px;
+    width: 400px;
 }
 
-div#peepshowc:hover{
-    opacity:100%;
+div#peepshowc:hover {
+    opacity: 100%;
 }
 
 div#peepshowd {
-    position:absolute;
-    display:block;
-    width:400px;
-    height:400px;
-    top:500px;
-    left:600px;
-    transition:all 1s;
-    opacity:0%;
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 400px;
+    top: 500px;
+    left: 600px;
+    transition: all 1s;
+    opacity: 0%;
 }
 
 .muscletwo {
-    height:400px;
-    width:400px;
+    height: 400px;
+    width: 400px;
 }
 
-div#peepshowd:hover{
+div#peepshowd:hover {
     opacity: 100%;
 }
 
 div#peepshowe {
-    position:absolute;
-    display:block;
-    width:400px;
-    height:400px;
-    top:120px;
-    left:-20px;
-    transition:all 1s;
-    opacity:0%;
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 400px;
+    top: 120px;
+    left: -20px;
+    transition: all 1s;
+    opacity: 0%;
 }
 
 .musclethree {
-    height:300px;
-    width:300px;
+    height: 300px;
+    width: 300px;
 }
 
-div#peepshowe:hover{
+div#peepshowe:hover {
     opacity: 100%;
 }
 
 div#peepshowf {
-    position:absolute;
-    display:block;
-    width:400px;
-    height:400px;
-    top:130px;
-    left:450px;
-    transition:all 1s;
-    opacity:0%;
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 400px;
+    top: 130px;
+    left: 450px;
+    transition: all 1s;
+    opacity: 0%;
 }
 
 .musclefour {
-    height:300px;
-    width:300px;
+    height: 300px;
+    width: 300px;
 }
 
-div#peepshowf:hover{
+div#peepshowf:hover {
     opacity: 100%;
 }
 
@@ -268,190 +285,222 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-     div#headbar {        
-        height:50px;  
+    div#headbar {
+        height: 50px;
     }
-    #titlebox{        
-        height:25px;
-    } 
-    #buttons{        
-        height:25px;
-    }     
+
+    #titlebox {
+        height: 25px;
+    }
+
+    #buttons {
+        height: 25px;
+    }
+
     #title {
-        font-size:25px;
-        height:25px;
+        font-size: 25px;
+        height: 25px;
         margin-top: 5px;
-    }     
+    }
+
     div#container {
         margin-top: 50px;
     }
+
     #logobboxlogo {
         height: 50px;
         width: 50px;
-    } 
+    }
+
     .paragraph {
-        padding:5px;
+        padding: 5px;
         margin-left: 10px;
         margin-right: 10px;
-        font-size:10px;
-        border:3px solid #FF7BD0;
-    }  
+        font-size: 10px;
+        border: 3px solid #FF7BD0;
+    }
+
     nav {
         height: 25px;
     }
-    nav a{
-        height:20px;
-        border:1px solid black;
-        padding:0px;
-        margin:2px;
+
+    nav a {
+        height: 20px;
+        border: 1px solid black;
+        padding: 0px;
+        margin: 2px;
         font-size: 9px;
-        display:inline-flex;
-        border-radius:1px;
-    }    
+        display: inline-flex;
+        border-radius: 1px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    div#headbar {        
-        height:50px;  
+    div#headbar {
+        height: 50px;
     }
-    #titlebox{        
-        height:25px;
-    } 
-    #buttons{        
-        height:25px;
-    }     
+
+    #titlebox {
+        height: 25px;
+    }
+
+    #buttons {
+        height: 25px;
+    }
+
     #title {
-        font-size:25px;
-        height:25px;
+        font-size: 25px;
+        height: 25px;
         margin-top: 5px;
-    }     
+    }
+
     div#container {
         margin-top: 50px;
     }
+
     #logobboxlogo {
         height: 50px;
         width: 50px;
-    } 
+    }
+
     .paragraph {
-        padding:5px;
+        padding: 5px;
         margin-left: 10px;
         margin-right: 10px;
-        font-size:13px;
-        border:5px solid #FF7BD0;
-    }  
+        font-size: 13px;
+        border: 5px solid #FF7BD0;
+    }
+
     nav {
         height: 25px;
     }
-    nav a{
-        height:20px;
-        border:1px solid black;
-        padding:0px;
-        margin:2px;
+
+    nav a {
+        height: 20px;
+        border: 1px solid black;
+        padding: 0px;
+        margin: 2px;
         font-size: 9px;
-        display:inline-flex;
-        border-radius:1px;
-    }    
+        display: inline-flex;
+        border-radius: 1px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    div#headbar {        
-        height:100px;
+    div#headbar {
+        height: 100px;
     }
-    #titlebox{        
-        height:50px;
-    } 
-    #buttons{        
-        height:50px;
+
+    #titlebox {
+        height: 50px;
+    }
+
+    #buttons {
+        height: 50px;
     }
 
     #title {
-        font-size:45px;
-        height:50px;
+        font-size: 45px;
+        height: 50px;
         margin-top: 10px;
-    }      
+    }
+
     div#container {
         margin-top: 100px;
     }
+
     #logobboxlogo {
         height: 100px;
         width: 100px;
-    } 
+    }
+
     .paragraph {
-        padding:5px;
+        padding: 5px;
         margin-left: 80px;
         margin-right: 80px;
-        border:5px solid #FF7BD0;
-    }   
+        border: 5px solid #FF7BD0;
+    }
+
     nav {
         height: 50px;
     }
-    nav a{
-        height:inherit;
-        border:1px solid black;
-        padding:3px;
-        margin:5px;
+
+    nav a {
+        height: inherit;
+        border: 1px solid black;
+        padding: 3px;
+        margin: 5px;
         font-size: inherit;
-        display:inline-flex;
-        border-radius:3px;
-    }      
+        display: inline-flex;
+        border-radius: 3px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    div#headbar {        
-        height:100px;
+    div#headbar {
+        height: 100px;
     }
-    #titlebox{        
-        height:50px;
-    } 
-    #buttons{        
-        height:50px;
-    }       
+
+    #titlebox {
+        height: 50px;
+    }
+
+    #buttons {
+        height: 50px;
+    }
+
     #title {
-        font-size:45px;
-        height:50px;
+        font-size: 45px;
+        height: 50px;
         margin-top: 10px;
-    }      
+    }
+
     div#container {
         margin-top: 100px;
     }
+
     #logobboxlogo {
         height: 100px;
         width: 100px;
-    }      
+    }
+
     .paragraph {
-        font-size:23.5px;
-        height:200px;
-        padding:15px;
-        color:#FFFF00;
-        border:5px solid #FF7BD0;
+        font-size: 23.5px;
+        height: 200px;
+        padding: 15px;
+        color: #FFFF00;
+        border: 5px solid #FF7BD0;
     }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    div#headbar {        
-        height:100px;
-    }
-    #titlebox{        
-        height:50px;
-    } 
-    #buttons{        
-        height:50px;
-    }       
-    #title {
-        font-size:45px;
-        height:50px;
-        margin-top: 10px;
-    }      
-    div#container {
-        margin-top: 100px;
-    }
-    #logobboxlogo {
-        height: 100px;
-        width: 100px;
-    }      
-}
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        div#headbar {
+            height: 100px;
+        }
 
+        #titlebox {
+            height: 50px;
+        }
 
+        #buttons {
+            height: 50px;
+        }
+
+        #title {
+            font-size: 45px;
+            height: 50px;
+            margin-top: 10px;
+        }
+
+        div#container {
+            margin-top: 100px;
+        }
+
+        #logobboxlogo {
+            height: 100px;
+            width: 100px;
+        }
+    }
