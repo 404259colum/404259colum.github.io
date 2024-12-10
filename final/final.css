@@ -25,8 +25,33 @@ div#headbar {
     background-color:red;
     position:fixed;
     top:0px;
+    display:inline-flex;
+    flex-direction:row;
 }
+#logobbox {
+    order: 1;
+    padding: 0;
+    margin: 0;    
+}
+#logobboxlogo {
+        height: 100px;
+        width: 100px;
+        padding: 0;
+        margin: 0;
+    }
+#headernav {
+    display:inline-flex;
+    padding: 10px;
+    order: 2;
+    flex-direction: column;
+}
+#titlebox{
 
+    order: 1;
+}
+#buttons{
+    order: 2;
+}
 
 div#container {
 	margin:auto;
@@ -42,6 +67,8 @@ div#container {
 
 
 
+
+
 /* ========================================
 MEDIA QUERIES!
 You can adjust the min-width numbers below, and add as many new media queries as you need.
@@ -51,21 +78,42 @@ You can adjust the min-width numbers below, and add as many new media queries as
 @media only screen and (max-width: 600px) {
     div#headbar {        
         height:30px;
+    }  
+    #container {
+        margin: 30px;
     }
+    #logobboxlogo {
+        height: 30px;
+        width: 30px;
+    }     
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     div#headbar {        
-        height:30px;
+        height:50px;  
     }
+    #container {
+        margin: 50px;
+    }
+    #logobboxlogo {
+        height: 50px;
+        width: 50px;
+    }      
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     div#headbar {        
-        height:70px;
+        height:100px;
     }
+    #container {
+        margin: 100px;
+    }
+    #logobboxlogo {
+        height: 100px;
+        width: 100px;
+    }      
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
