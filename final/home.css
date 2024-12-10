@@ -105,6 +105,8 @@ div#container {
     width: 50%;
 }
 
+
+
 #firstlogo.center {
     width: 50%;
 }
@@ -114,6 +116,13 @@ div#container {
     margin-left: auto;
     margin-right: auto;
     width: 35%;
+}
+
+.center.tiny {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
 
 #title {
