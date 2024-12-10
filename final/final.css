@@ -68,10 +68,10 @@ div#container {
 .paragraph {
     background-color:orange;
     padding:10px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
     margin-top:0px;
-    width: 100%;
+    width: auto;
 }
 
 #firstlogo {
@@ -120,7 +120,7 @@ nav a{
     margin:5px;
     display:inline-flex;
     border-radius:10px;
-    background:black;
+    background:orange;
     color:white;
 }
 
@@ -217,7 +217,12 @@ You can adjust the min-width numbers below, and add as many new media queries as
     #logobboxlogo {
         height: 100px;
         width: 100px;
-    }      
+    } 
+    .paragraph {
+        padding:5px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }     
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
