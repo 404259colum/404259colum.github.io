@@ -30,6 +30,7 @@ div#headbar {
 
 div#container {
 	margin:auto;
+    z-index: 1;
 }
 
 
@@ -48,16 +49,24 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+    div#headbar {        
+        height:30px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+    div#headbar {        
+        height:30px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 768px) {
+    div#headbar {        
+        height:70px;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {...}
