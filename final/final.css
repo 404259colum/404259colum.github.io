@@ -55,6 +55,7 @@ div#headbar {
 
 div#container {
 	margin:auto;
+    margin-top: 100px;
     z-index: 1;
 }
 
@@ -79,8 +80,8 @@ You can adjust the min-width numbers below, and add as many new media queries as
     div#headbar {        
         height:30px;
     }  
-    #container {
-        margin: 30px;
+    div#container {
+        margin-top: 30px;
     }
     #logobboxlogo {
         height: 30px;
@@ -93,8 +94,8 @@ You can adjust the min-width numbers below, and add as many new media queries as
     div#headbar {        
         height:50px;  
     }
-    #container {
-        margin: 50px;
+    div#container {
+        margin-top: 50px;
     }
     #logobboxlogo {
         height: 50px;
@@ -107,8 +108,8 @@ You can adjust the min-width numbers below, and add as many new media queries as
     div#headbar {        
         height:100px;
     }
-    #container {
-        margin: 100px;
+    div#container {
+        margin-top: 60px;
     }
     #logobboxlogo {
         height: 100px;
@@ -117,9 +118,31 @@ You can adjust the min-width numbers below, and add as many new media queries as
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 992px) {
+        div#headbar {        
+        height:100px;
+    }
+    div#container {
+        margin-top: 60px;
+    }
+    #logobboxlogo {
+        height: 100px;
+        width: 100px;
+    }      
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+@media only screen and (min-width: 1200px) {
+        div#headbar {        
+        height:100px;
+    }
+    div#container {
+        margin-top: 60px;
+    }
+    #logobboxlogo {
+        height: 100px;
+        width: 100px;
+    }      
+}
 
 
