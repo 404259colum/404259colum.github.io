@@ -27,6 +27,7 @@ div#headbar {
     top:0px;
     display:inline-flex;
     flex-direction:row;
+    z-index:5;
 }
 #logobbox {
     order: 1;
@@ -38,6 +39,7 @@ div#headbar {
         width: 100px;
         padding: 0;
         margin: 0;
+        background-color:#FF7BD0;
     }
 #headernav {
     display:inline-flex;
@@ -67,12 +69,18 @@ div#container {
 }
 
 .paragraph {
-    background-color:orange;
+    background-color:#FF6400;
     padding:10px;
     margin-left: 80px;
     margin-right: 80px;
     margin-top:0px;
     width: auto;
+    height:200px;
+    text-align:center;
+    font-size:23px;
+    line-height: 30px;
+    color:#00C943;
+    text-shadow:1px 1px 2px #59AAFF;
 }
 
 #firstlogo {
@@ -128,7 +136,7 @@ nav a{
 
 
 nav a:hover {
-    background:pink;
+    background:#FF7BD0;;
     border-radius:0px;
 }
 
@@ -139,7 +147,7 @@ div#peepshowa {
     height:100px;
     top:100px;
     left:300px;
-    transition:all 2s;
+    transition:all 1s;
     opacity:0%;
 }
 
@@ -151,6 +159,108 @@ div#peepshowa {
 div#peepshowa:hover {
     opacity:100%;
 }
+
+div#peepshowb {
+    position:absolute;
+    display:block;
+    width:200px;
+    height:200px;
+    top:200px;
+    left:650px;
+    transition:all 1s;
+    opacity:0%;
+}
+
+.trio {
+    height:250px;
+    width:800px;
+}
+
+div#peepshowb:hover {
+    opacity:100%;
+}
+
+div#peepshowc {
+    position:absolute;
+    display:block;
+    width:400px;
+    height:400px;
+    top:400px;
+    left:100px;
+    opacity:100%;
+    transition:all 1s;
+    opacity:0%;
+}
+
+.muscleone {
+    height:400px;
+    width:400px;
+}
+
+div#peepshowc:hover{
+    opacity:100%;
+}
+
+div#peepshowd {
+    position:absolute;
+    display:block;
+    width:400px;
+    height:400px;
+    top:500px;
+    left:600px;
+    transition:all 1s;
+    opacity:0%;
+}
+
+.muscletwo {
+    height:400px;
+    width:400px;
+}
+
+div#peepshowd:hover{
+    opacity: 100%;
+}
+
+div#peepshowe {
+    position:absolute;
+    display:block;
+    width:400px;
+    height:400px;
+    top:120px;
+    left:-20px;
+    transition:all 1s;
+    opacity:0%;
+}
+
+.musclethree {
+    height:300px;
+    width:300px;
+}
+
+div#peepshowe:hover{
+    opacity: 100%;
+}
+
+div#peepshowf {
+    position:absolute;
+    display:block;
+    width:400px;
+    height:400px;
+    top:130px;
+    left:450px;
+    transition:all 1s;
+    opacity:0%;
+}
+
+.musclefour {
+    height:300px;
+    width:300px;
+}
+
+div#peepshowf:hover{
+    opacity: 100%;
+}
+
 /* ========================================
 MEDIA QUERIES!
 You can adjust the min-width numbers below, and add as many new media queries as you need.
@@ -183,6 +293,8 @@ You can adjust the min-width numbers below, and add as many new media queries as
         padding:5px;
         margin-left: 10px;
         margin-right: 10px;
+        font-size:10px;
+        border:3px solid #FF7BD0;
     }  
     nav {
         height: 25px;
@@ -225,6 +337,8 @@ You can adjust the min-width numbers below, and add as many new media queries as
         padding:5px;
         margin-left: 10px;
         margin-right: 10px;
+        font-size:13px;
+        border:5px solid #FF7BD0;
     }  
     nav {
         height: 25px;
@@ -268,6 +382,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
         padding:5px;
         margin-left: 80px;
         margin-right: 80px;
+        border:5px solid #FF7BD0;
     }   
     nav {
         height: 50px;
@@ -306,7 +421,13 @@ You can adjust the min-width numbers below, and add as many new media queries as
         height: 100px;
         width: 100px;
     }      
-}
+    .paragraph {
+        font-size:23.5px;
+        height:200px;
+        padding:15px;
+        color:#FFFF00;
+        border:5px solid #FF7BD0;
+    }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
