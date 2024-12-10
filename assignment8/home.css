@@ -311,6 +311,10 @@ div#peepshowf:hover {
     opacity: 100%;
 }
 
+.buttons {
+    margin: 0px;
+}
+
 /* ========================================
 MEDIA QUERIES!
 You can adjust the min-width numbers below, and add as many new media queries as you need.
